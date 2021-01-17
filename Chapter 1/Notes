@@ -1,0 +1,36 @@
+#Notes of chapter 1 
+
+
+
+We could have more different frame or view for diifferent users 
+
+
+database has some feature which we work on like insert , delete , pop ... .etc
+
+We have two section in database managed system like admin and user , admin can edit and change in database 
+but user not 
+
+
+database could be for long time like years 
+
+
+asking about information in DB > Processing > MetaData >  Sorted data  then we reverse this operation to give information to  user
+
+
+Metadata describes other data. It provides information about a certain item's content. For example, an image may include metadata that describes how large the picture is, the color depth, the image resolution
+
+
+
+change in program doesnt depend change in data(program data independance)
+
+
+Data abstraction  :  meaning that database shopoing sorted data and doesnt show it is sorted  and we used data model to make abstraction 
+
+
+transaction some commands will run in parallel so It should be isolation and atomicity proprety (all  commands will  run or not all )
+
+
+
+
+
+
