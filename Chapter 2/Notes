@@ -1,0 +1,94 @@
+# notes of  chapter 2
+
+
+Data moels : it is  a collections of concepts can be used to describe the structure of database  and most od data models have basic operations for inserting , update and structure
+
+
+structure of database  is datatubes, relation and constraints 
+
+
+Data models has two types : 
+
+
+1- High data models (conceptual  data models ) :  It has way very close how user talk to each other (special for users ) 
+
+2- Low data models (Physics data models )  :  It has describe details how the data be stored  (special for computer  not user ) 
+
+3 -represntional data models ( implementional datta models )  : It has concept may be easily for users and not too far away from Low level ( حلقة وصل ما بينهم كده )  and hide alot of  details of data storage but we can implemented it on computer system directly  (most used)
+and one of its example relational data models
+ 
+ 
+Data models use consepts like entitiy , attribute and relationship 
+
+
+entitiy :  describe  an object like employee , project  .. etc
+attribute :  describe  some property  like employee's name and salary  etc  
+relationship :  relationts between entities  like  n-  employee work on project 
+
+
+index is a one of access paths type in Low level model 
+
+
+=====================================================================================
+
+Schemas : It is describtion of database  in data base design  and most of data models represent scemas as digram called schemas digram  represent structure but it is not represent details
+
+
+database state (snapshot) the data which locate in database at partiular time   and it is also called set of instence 
+
+
+3schemas architecture : its goal to seprate user application and database  ...  scheams can define 3 levels 
+1-Internal schemas which  care about low level and  architecture
+2-conceptual schemas which care the whole database ( entinity ,data types ,relationships and user operation )  use representional data models
+3-external schemas which desribe part of database and hide database from those users 
+
+
+======================================================================================
+
+data independence: the ability to change any  level of scheams without change any higher  level  and its has two types : 
+1-  Logical data independence  >>>>  change in conceptual schemas without change in >>>>>  external schemas
+2- Physicall data independence >>>> change in Internal schemas without change in >>>>>   conceptual schemas
+
+======================================================================================
+
+DBMS  Languages : 1- DDL (Data Definition Language ) 
+                  2- DML (Data Mainpulation Language)
+                  3- SDL (Storage Deginition Language)
+                  4- VDL (View Deginition Language)
+
+
+======================================================================================
+          
+         
+Database System Enviroment :  A database environment is a collective system of components that comprise and regulates the group of data, management, and use of data, which consist of software, hardware, people, techniques of handling database, and the data also
+Database System Utilities : help the DBA manage the system , common utilities  have function includes : 
+                                                                                 1 -  Loading >>> load data from any serouce 
+                                                                                 2 -  Backup >>>  copy of my database
+                                                                                 3- Reorganization >>>organize data in files to improve performance
+                                                                                 4- Monitoring >>> provides statistics  for decision-making
+                                                                                 
+                                                                                 
+======================================================================================
+** Centerlized Managed System Architecture : It is similar to Computer manged sytsem  Architecture (All processing  done in one server )                                                                               
+
+
+** Basic client /Server Architecture   :  working on multi servers and we could connect n of PCs and each server doing specific operation  and has 2 types :
+1-Two-Tier client/server :  In relational database like (queruy or sql server)  put interface program and application proogram  in user  and database in server 
+advantage  : simple and easy to operate 
+
+2 - three-tier client/server  : differ that we put addtional tiel in middel called web server or application server (business rulles) accept request from user and send it to/from  database server/client  (more used  )  
+application server which contain function 
+advantage  :  low cost, more security  and faster                                                                                  
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
+                                                                                 
