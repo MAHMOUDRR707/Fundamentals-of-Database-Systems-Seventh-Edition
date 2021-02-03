@@ -1,0 +1,57 @@
+#chapter 3 
+
+
+* attribute :  it is the information at every entity 
+
+
+
+single value  and multi value attribute  >>> يحتمل قيمة واحدة  / يحتمل اكتر من قيمة 
+simple and compsite attribute >>> بيدي معلومة واحدة  / ممكن اخد اكتر من معلومة من نفس الاتتربيوت
+stored and derived attribute >>> معلومات بخدها من اليوزر /  معلومات باخدها ناتجة عن الاستتنتاج 
+complex  attribute >>>  multi value and compsite  >> زي مثلا التليفون عنده خطين  وكل واحد منهم ليه معلومات كتير مثلا
+
+
+
+
+draw database  (EDR)
+entity >  triangle ,
+attribute >  elipse  and if it is compsite  >  بيبقي اليبس وطالع منه اليبس تشمل الممعلومات
+if it is multi value attribute  >>  بنعمل اتنين اليبس حواليه 
+if it is complex >> بنعمل اليبس منقطة  حواليه
+solid line under attribute  mean that key attribute (  unique value will not repeated )
+
+
+
+Weak entity >  entity doesnt have any key attribute  >>  double triangle  >> بتبقي الريليشن شيب بينها وبين  اي انتينتي تاني بتبقي اتنين معين فوق بعض
+ودايما بيبقي الويك انتيتي عنده  توتل ريليشين  مع الاوفر انتيتي
+
+
+
+Relationship :  >> daimond shape
+1 -  binary relationship  >  between 2  entities
+2- ternary relatiopnshoip >  between 3 entities 
+3-  recursive relationship >  between 1  entity and itself
+
+
+
+
+cardinality of realtionship :>> القيود اللي بتم علي العلاقات  
+1-  one to one > ex >  المشروع يديره موظف واحد
+2- one to many > ex >  القسم يدير اكتر من مشروع 
+3- many to many > ex > الموظفين يديروا العديد من المشاريع 
+
+
+Participation Constraints :
+partial >  single line >   مش شرط كل الانتيتي تشارك لما يكون في علاقة بين حاجتين
+total >  double line  >  لازم كل الانتيتي تشارك لما يكون في علاقة بين حاجتين 
+min > اقل عدد يمكن ادخاله
+max > اكتر عدد يمكن ادخاله 
+
+
+
+** we could put attribut on relationships 
+
+
+
+
+
