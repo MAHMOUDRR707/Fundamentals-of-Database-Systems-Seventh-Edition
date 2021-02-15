@@ -1,0 +1,42 @@
+** Enahnace Entity relationship (Chapter 4 )
+
+
+* نفس الشابرت التالت  بس مطور شوية عشان الانظمة المعقدة 
+
+
+* subcalss :  sub category in superclass (  مجموعة بتتمز بحاجات معينة جوا الانتنيتي الكبير ) 
+* superclass : it is main entity 
+
+
+
+* subclass inheirate all attribute  and realtionship  in superclass but not reverse 
+
+
+
+* could enitity in superclass doesnt exist in subclass 
+
+
+* defining attribut : it is the rule which we split subclass
+ 
+ 
+ * Constarin : القيود اللي بفرضها علي  الساب كلاس  
+ 
+ 1 - disjointness constarin : بيتم تسميته ب d  or O  
+ d -معني ان عضو الساب كلاس مشترك في سوبر كلاس واحد 
+ O -  معني ان عضو السوبر كلاس ممكن ينتمي لاكتر من ساب كلاس
+ 
+ 
+ 2 -  completless constrain : 
+ total  completless (double line ) : every entity in superclass must me a member in subclass
+ 
+ Hierarchy : subclass  could be  superclass for just one subclasse
+ Lattice:  subclass  could be  superclass for more one subclasse
+ 
+ 
+ 
+ * Category or union type : هو اتحاد لاكتر من  ساب كلاس ملهمش علاقة ببعض 
+ بيرمز ليه برمز  U
+ 
+ 
+ 
+
