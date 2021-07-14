@@ -1,0 +1,15 @@
+1 - Define database,Construct database(build and store),Manipulate database(restore), and Share database(sharing)
+
+2-  A database stored in collection of tables   more efficient , faster 
+   Manages information
+   Easy operation implementation
+   Multiple views of database
+   Data for specific purpose
+   It has users of specific interest 
+   
+3-DBA and the database designer both are responsible for data maintenance and data construction in an organization. Following are some responsibilities of DBA 
+
+4-Casual End Users (Mangaers occasionally used it  ) -Naive or parametric end users (visit it regular  like The person who is working in the bank will basically tell us the account balance and post-withdrawal and deposits)
+- Sophisticated end users (engineering who use to  implement it with website ot  analysis) - Standalone users (maintain the database using sotware program ) 
+
+5- Database management system can be regarded as a store house of information. ... Information retrieval system on the other hand refers to an overall system which is capable of searching and providing useful information from a data repository based one or more combinations of search conditions
