@@ -1,0 +1,26 @@
+ 1 -  High data model - low data model - represntional data models 
+ XML data is hierarchical; relational data is represented in a model of logical relationships
+ XML data is self-describing; relational data is not
+XML data has inherent ordering; relational data does not
+
+2-Schemas : It is describtion of database  in data base design  and most of data models represent scemas as digram called schemas digram  represent structure but it is not represent details
+database state (snapshot) the data which locate in database at partiular time   and it is also called set of instence 
+
+
+3 - 3schemas architecture : its goal to seprate user application and database  ...  scheams can define 3 levels 
+1-Internal schemas which  care about low level and  architecture
+2-conceptual schemas which care the whole database ( entinity ,data types ,relationships and user operation )  use representional data models
+3-external schemas which desribe part of database and hide database from those users 
+
+
+4 - data independence: the ability to change any  level of scheams without change any higher  level  and its has two types : 
+1-  Logical data independence  >>>>  change in conceptual schemas without change in >>>>>  external schemas (more diffcult )
+2- Physicall data independence >>>> change in Internal schemas without change in >>>>>   conceptual schemas
+
+
+
+5 -In procedural languages, the program code is written as a sequence of instructions. User has to specify “what to do” and also “how to do” (step by step procedure). These instructions are executed in the sequential order. These instructions are written to solve specific problems.
+In the non-procedural languages, the user has to specify only “what to do” and not “how to do”. It is also known as an applicative or functional language. It involves the development of the functions from other functions to construct more complex functions.
+
+
+ 
