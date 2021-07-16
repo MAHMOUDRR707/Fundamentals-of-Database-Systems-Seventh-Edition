@@ -57,3 +57,5 @@ max > اكتر عدد يمكن ادخاله
 
 value set is  the value which assign to the attribute  like  time  ( attribute )  5.0 (  value set )
 
+when mention could be zero or one or more  the cardinality will be N
+
