@@ -5,9 +5,17 @@
 
 
 * subcalss :  sub category in superclass (  مجموعة بتتمز بحاجات معينة جوا الانتنيتي الكبير ) 
-* superclass : it is main entity 
+* superclass : it is the  main entity 
 
+EX  :  employee  enitity (superclass )  could have subclass of engineering entity , scientist  ...etc (subclasses )
 
+we but a letter  (U) on the line between sub and super class 
+
+we could group them depends on on their kind and make them a group with letter (d) 
+
+![figure](https://img.brainkart.com/extra/2uA4YUb.jpg)
+
+=====================================================================================================================
 
 * subclass inheirate all attribute  and realtionship  in superclass but not reverse 
 
