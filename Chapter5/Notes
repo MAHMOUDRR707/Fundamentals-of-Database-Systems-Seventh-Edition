@@ -1,0 +1,77 @@
+Chapter 5 Notes : 
+
+
+* Relational Model Concepts easy for user to understand 
+
+* build relation depends on the EDR  by creating a table and attribute called colums( اللي هي الصفوف ولكن بشكل غير رسمي بنقول عليها اعمدة )  also each rows contains  value of att 
+
+* relation means table  
+
+*  Each row had unique  key 
+
+* weak enitity which doesn't have any unique key we could add  key  ( called  artificial key)
+
+
+*  typle creation  open ( < )  and put your value  (  attribute ) and cclose it with ( >) 
+
+====================================================================================================================
+
+r(R)  =  A1 X A2 
+
+* r(R)  >>>>  relation state
+
+*  R  >>>>> schema 
+
+* X  >>> product ( ضرب  )
+
+* A1 , A2  >> attribute 
+
+====================================================================================================================
+
+* tubles not considered to be orderd when stroing  and just happen when we revert data 
+
+* all value in my tuble should be atomic (مش منفصلة ) and with domain we specifiy it ( عدد الحروف مثلا )
+
+*  value could be null 
+
+* there are constrain  ( قواعد  او قيود )  like key constrain - enitity constrain - Referential constrain a
+
+====================================================================================================================
+
+Key constrain :  the unique value of attribute which give me ability to  specicfy  (  minmuimal super key )   and doesn't have redundant attribute 
+
+
+super key (sk ) : set of attribute   should have some conditions ( Unique - some of them redundant ( like age - name ) )  
+
+*  could  the table have two  unique  attribute so we chosse one of them as primary key  and shouldn't be null at all
+
+*  you could chosse the primary key if you have two or more unique attribute  >>  tend to chosse number beter thab string  and which have small size 
+
+====================================================================================================================
+
+referential integirty  :  there is a key shared between enitites  to connct between them  and the key called forign key and we use  line to declare ti between tubles 
+
+
+semantic integirty   which i could draw it like the other and we do it while programming 
+
+====================================================================================================================
+update operation 
+- insert 
+- modify 
+- Delete
+
+what should happen when we insert alue doesn't match our constrain  : 
+1 -  cansel the operation 
+2-   solve the problem autometically 
+3-  do it anyway and appear for you that there is an error 
+
+
+
+
+
+
+
+
+
+
+
