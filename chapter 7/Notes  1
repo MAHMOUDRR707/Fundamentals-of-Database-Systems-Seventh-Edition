@@ -1,0 +1,21 @@
+** Mapping  Notes 
+ 
+ 
+*  composte attribute     we write its multi values not itself 
+
+* Multi relation attribute  will have new realtion with the primary key of the enitity which it belong to 
+
+
+*  when i have two  or more unique   keys i choose one only as primmary key 
+
+
+* one to one  between 2 enitity   and there is an partial partcipition   then we take the enitity with parital and put its primary key as foign key in the  tuble of the other enitity
+
+
+* if it one to many   ( هاخد اللي عنده ال 1  واحطه هو كفورين كي في التانية )
+
+
+
+* if it many to many   you are gonna to create new table and also join if any attribute exist on relationship
+
+
