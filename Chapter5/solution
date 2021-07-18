@@ -1,0 +1,16 @@
+1 - Tuple ordering is not part of a relation definition because a relation attempts to represent facts at a logical or abstract level. Many tuple orders can be specified on the same relation. For example, tuples in the STUDENT relation could be ordered by values of Name , Ssn , Age , or some other attribute.
+
+2- Duplicate tuples are not allowed in a relation because they created redundancy of data base which makes the data processing like querying, inserting, deleting, updating etc slow the speed of data base.
+
+
+3- key is unique  value  and we can't remove it  , superkey has just one unique value and we could remove  some attribut from it
+
+
+4 - so each  member  has its unique value so we could update specific 
+
+
+5- forign key used in entity integrity to connect between enitites  , it is very important so i could  know which member between  enitites 
+
+6 - Transaction is group of statements which have Atomicity / Consistency  / Isolation / Durable properties. We can have many DML operations...
+
+
