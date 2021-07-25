@@ -1,0 +1,37 @@
+Notes of chapter 6 
+
+
+** sql commands 
+
+
+* when changing  forign key or  the primary key should the database refuse or have another opion
+
+
+*  illustrates how a constraint may be given a constraint name, following the keyword CONSTRAINT
+
+
+* he same name can be used for two (or more) attributes as long as the attributes are in different tables.
+
+* we could summrize any table by putting AS
+
+
+* SQL usually treats a table not as a set but rather as a multiset
+
+
+* union - except - INTERSECT >>>>>>>> condion  that they have the same columns and have the same datatype in each colum
+
+
+* select operator   , we use it to select some of rows (horizontal partitions)
+
+
+* project operator has sign is pi  , we use it to select some of colums (vertical partitions)
+
+
+*The first feature allows comparison conditions on only parts of a character string, using the LIKE comparison operator
+
+
+* Between - AND -  OR - NOT
+
+* Order By  - Like
+
+* Update   and  Set - Insert into - delete from 
