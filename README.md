@@ -3,4 +3,4 @@
 Notes for “Fundamentals of Database Systems Seventh Edition"  
 
 
-Each chaper has its own patch in this file
+Each chapter has its own patch in this file
