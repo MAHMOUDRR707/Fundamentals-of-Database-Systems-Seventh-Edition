@@ -1,0 +1,105 @@
+Chapter  7  Notes : 
+
+
+Null value : 
+1- missed
+2- not acceptable
+3- user want to assign it as empty 
+
+
+Nested queries : query apper in the main  query  (outer query) like after where condition 
+Nested queries could also have its condition 
+Nested queries could return attributes or tuble
+
+Better to declare each tuble with a word in case they have name name of attributes 
+
+
+Correlated nested queries  : we call them both (outer and nested) in *from*. And each has its word
+
+ EXISTS and UNIQUE are Boolean functions that return TRUE or FALSE; hence, 
+they can be used in a WHERE clause condition.
+
+
+Joined Tables  :
+The attributes of such a table
+are all the attributes of the first table, followed by all the attributes of the second table
+
+
+.In a NATURAL JOIN on two relations R and S, no join condition is specified; ( there is no  *on*)
+
+
+- If the names of the join attributes are not the same in the base relations, it is possible
+to rename the attributes
+
+
+
+- The default type of join in a joined table is called an inner join, where a tuple is
+included in the result only if a matching tuple exists in the other relation
+
+
+- If the user requires that all employees be included, a different type of join called OUTER JOIN must be used explicitly  , even they have NULL value
+
+
+-   we can do what it call multijoin     (  more one join in same operation with different tables ) 
+
+
+- In some systems, a different syntax was used to specify outer joins by using the comparison operators + =, = +, and + = + for left, right, and full outer join,
+
+
+-  Max  -  Min -Avg  -  Sum -  Count 
+
+
+-  group by is used to  do some operation on subgroups  
+
+- The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
+
+
+-  The WITH clause allows a user to define a table that will only be used in a particular query
+
+
+- a CASE ---- >  when ----->  else construct, which can be used when a value can be different based on certain conditions
+
+
+*  recursive query  :  used in hierachy to use two or more different tables who always related to each other   .  Refernce >>>>> https://www.youtube.com/watch?v=7GpyHedM4pw
+
+
+
+-  assertion is a statement in SQL that ensures a certain condition will always exist in the database. Assertions are like column and table constraints, except that they are specified separately from table definitions
+CREATE ASSERATION (TABLE NAME ) 
+CHECK ( NOT EXIST (  CONDTIONS ))   Better to use NOT EXIST and CHECK
+
+
+
+-  CREATE TRIGGER statement allows you to create a new trigger that is fired automatically whenever an event such as INSERT , DELETE , or UPDATE occurs against a table
+we use before or after to specifiy when the alert comes up  and on which attribute >>>> event
+then we specifiy condition to make this event  >>>> condition
+ and come at least the action  which what will happen >>>> action
+
+
+- CREATE VIEW. The view is given a (virtual) table name (or view name), a list of attribute names, and a query to specify the contents of the view  >>>  we should put the name of attribute of the view
+and if we don't it take it main name and if we want to end it we can use  DROP VIEW 
+
+
+- Views defined on multiple tables using joins are generally not updatable.
+- Views defined using grouping and aggregate functions are not updatable. 
+
+
+
+- The DROP command can be used to drop named schema elements, such as tables, domains, types, or constraints.
+
+- There are two drop behavior options: CASCADE and RESTRICT
+
+-to remove the COMPANY database schema and all its tables, domains, and other elements, the CASCADE option
+
+
+- If the RESTRICT option is chosen in place of CASCADE, the schema is dropped only if it has no elements in it; otherwise, the DROP command will not be executed. To
+use the RESTRICT option, the user must first individually drop each element in the schema, then drop the schema itself.
+
+
+- DELETE  option is better wehn we need to keep the data for the future work instead of  DROP which remove it ever
+
+
+- ALTER TABLE is used to add, delete/drop or modify columns in the existing table. It is also used to add and drop various constraints on the existing table
+
+
+
