@@ -1,0 +1,35 @@
+## Notes of chapter 8 
+
+
+Relational algebra is a procedural query language, which takes instances of relations as input and yields instances of relations as output. It uses operators to perform queries
+
+The fundamental operations of relational algebra are as follows -
+
+Select(unary opeator) >> The SELECT operation is used to choose a subset of the tuples from a relation that satisfies a selection condition
+
+Project (unary opeator) >> The PROJECT operation, on the other hand, selects certain columns from the table and discards the other columns
+ The PROJECT operation removes any duplicate tuples, so the result of the PROJECT operation is a set of distinct tuples
+
+Union 
+
+Set different
+
+Cartesian product
+
+Rename >> Rename is a unary operation used for renaming attributes of a relation.
+
+JOIN >> Binary Relational Operations
+DIVISION >> Binary Relational Operations
+
+
+
+
+
+
+Relational Calculus is a non-procedural query language, that is, it tells what to do but never explains how to do it.
+
+Relational calculus exists in two forms -
+
+Tuple Relational Calculus (TRC)
+
+Domain Relational Calculus (DRC)
