@@ -30,6 +30,23 @@ Relational Calculus is a non-procedural query language, that is, it tells what t
 
 Relational calculus exists in two forms -
 
-Tuple Relational Calculus (TRC)
+Tuple Relational Calculus (TRC) >> Tuple relational calculus is used for selecting those tuples that satisfy the given condition. descriped using set and conditions come after ( | ) anad before it come what i want to select
+ex > { t | Student(t) AND t.Last_Name = 'Singh' }
+
+
+Domain Relational Calculus (DRC) >>  domain relational calculus the records are filtered based on the domains
+ex > {< First_Name, Age > | ∈ Student ∧ Age > 27}
+
+Domain calculus differs from tuple calculus in the type of variables used in formulas: Rather than having variables range over tuples, the variables range over single
+values from domains of attributes.
+
+
+
+ aggregate functions 
+1) Count()
+2) Sum()
+3) Avg()
+4) Min()
+5) Max()
 
 Domain Relational Calculus (DRC)
