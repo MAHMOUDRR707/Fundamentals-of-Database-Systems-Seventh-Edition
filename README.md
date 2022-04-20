@@ -57,6 +57,8 @@ tailor the order of presentation of the chapters.
 instructor’s guide with solutions.
 Organization and Contents of the Seventh Edition
 
+![image](https://assets.chegg.com/rqm/image/upload/f_auto,q_auto/covers/9780133970777.jpg)
+
 There are some organizational changes in the seventh edition as well as improvement to the individual chapters. The book is now divided into 12 parts as follows:
 
 ■ Part 1 (Chapters 1 and 2) describes the basic introductory concepts necessary for a good understanding of database models, systems, and languages.
