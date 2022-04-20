@@ -1,0 +1,19 @@
+#Notes of Chapter 10 (Introduction to SQL Programming Techniques)
+
+ - application programs or database applications, and are used as canned transactions by the end users
+
+- Most database systems have an interactive interface where these SQL commands can be typed directly into a monitor for execution by the database system
+
+- Impedance mismatch is the term used to refer to the problems that occur because of differences between the database model and the programming language model.
+like : 
+
+1 - The first problem that may occur is that the data types of the programming language differ from the attribute data types that are available in the data model
+
+2- the results of most queries are sets or multisets of tuples (rows), and each tuple is formed of a sequence of attribute values. In the program, it is often necessary to access the individual data values within individual
+tuples for printing or processing. Hence, a binding is needed to map the query result data structure 
+
+Impedance mismatch is less of a problem when a special database programming language is designed that uses the same data model and data types as the database model. One example of such a language is Oracle’s PL/SQL. The SQL standard also
+has a proposal for such a database programming language, known as SQL/PSM. For object databases, the object data model (see Chapter 12) is quite similar to the data
+model of the Java programming language, so the impedance mismatch is greatly reduced when Java is used as the host language for accessing
+
+- 
