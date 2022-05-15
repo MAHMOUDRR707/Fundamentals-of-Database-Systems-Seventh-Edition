@@ -19,12 +19,28 @@ Normlization : The process  of decomposing unsatisfactory "bad " relations by br
 functional  dependencies : it is relation in attribute or more in the same table 
 
 
-we have 5 types of normlizarion 
+we have 6 types of normlizarion 
 
-1 - 1st Normalization : when we remove attribute is multi value attribute   or repeating groups 
+1 - 1st Normalization : when we remove attribute is multivalued attribute   or repeating groups (Nested relations) or composite attribute
 
-2 - 2nd Normalization : when we remove partial dependency 
+build seprated table with primary key and the multivalued attribute or nested attributes
 
-3-  3rd Normalization  : when we remove Transitive dependency 
+2 - 2nd Normalization : when we remove partial dependency , other attributes dependent on primary key attribute 
 
-4- 
+build seprated tables for each prime key with their dependcy attributes
+
+3-  3rd Normalization  : when we remove Transitive dependency non primary attributes depends on non primary  attribute
+
+Build  seprated table of those non primary attributes and make the one which dependent on  as prime
+
+4- Boyce code normal form : it is like the 3rd form but doesn't allow if prime key depends on non prime key attribute
+
+Build seprated table with prime attribute and the other attribute and make the other attribute prime in both seprated tables
+
+5- 4th Normalization :  rare to use  , when we remove Multivalued Dependency ( having attributes in our table which are dependent and doesn't ahve any relate to each other like dependts(family) name and project name
+
+Build seprated table for each   attribute with the main attribte  like  (employee name ) 
+
+6 - 5th Normalization : rare ti use when we remove the Join dependency , when we have depenct attributes and all of them are prime and each one has its own relation with the other
+
+build seprated table for each 2  of them 
