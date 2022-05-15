@@ -17,3 +17,22 @@ has a proposal for such a database programming language, known as SQL/PSM. For o
 model of the Java programming language, so the impedance mismatch is greatly reduced when Java is used as the host language for accessing
 
 -  Connecting to the Database. The SQL command for establishing a connection to a database has the following form: CONNECT TO <server name>AS <connection name> AUTHORIZATION <user account name and password> ;
+
+The programmer or user can use the <connection name> to change from the currently active connection to a different one by using the following command:
+SET CONNECTION <connection name> ;
+Once a connection is no longer needed, it can be terminated by the following command:
+DISCONNECT <connection name>
+
+Dynamic sql is  like static sql commands but stored as string then we excute  instead of building alot of filteers we write it on single string then we  excute
+
+
+embedded SQL, where the queries are part of the program source code. A precompiler is typically used to extract SQL commands from the program for processing by the DBMS, and replacing them with function calls to the DBMS compiled code. We presented an
+overview of embedded SQL, using the C programming language as host language in our examples. We also discussed the SQLJ technique for embedding SQL in Java programs. The concepts of cursor (for embedded SQL) and iterator (for SQLJ) were
+presented and illustrated by examples to show how they are used for looping over the tuples in a query result, and extracting the attribute value into program variables for further processing
+
+
+Stored Procedures  save and do the previous commands again which you have done before and you can creat it by
+
+CREATE Procedures ( THE PROCDEURES NAME )  AS ( COMMANDS)  GO;
+
+WHEN we call it back EXEC  ( THE PROCDEURES NAME )  , we can add some constrains on it to pass varaiables everytime  and not just calling it 
