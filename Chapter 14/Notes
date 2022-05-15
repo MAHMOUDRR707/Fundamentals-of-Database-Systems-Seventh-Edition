@@ -1,0 +1,30 @@
+# Notes of chapter 14
+
+
+The measurement   quality of each relation in our database depends on :
+
+■ Making sure that the semantics of the attributes is clear in the schema
+■ Reducing the redundant information in tuples
+■ Reducing the NULL values in tuples
+■ Disallowing the possibility of generating spurious tuples
+
+wokring on reduntancy on our database to fix of wasted storage and cause update problem (insert -  delete - modification ) like null values
+
+If many of the attributes do not apply to all tuples in the relation, we end up with many NULLs in those tuples. This can waste space at the storage level and may
+also lead to problems with understanding the meaning of the attributes .
+
+
+Normlization : The process  of decomposing unsatisfactory "bad " relations by breaking up their attribute into small relations
+
+functional  dependencies : it is relation in attribute or more in the same table 
+
+
+we have 5 types of normlizarion 
+
+1 - 1st Normalization : when we remove attribute is multi value attribute   or repeating groups 
+
+2 - 2nd Normalization : when we remove partial dependency 
+
+3-  3rd Normalization  : when we remove Transitive dependency 
+
+4- 
