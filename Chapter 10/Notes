@@ -16,4 +16,4 @@ Impedance mismatch is less of a problem when a special database programming lang
 has a proposal for such a database programming language, known as SQL/PSM. For object databases, the object data model (see Chapter 12) is quite similar to the data
 model of the Java programming language, so the impedance mismatch is greatly reduced when Java is used as the host language for accessing
 
-- 
+-  Connecting to the Database. The SQL command for establishing a connection to a database has the following form: CONNECT TO <server name>AS <connection name> AUTHORIZATION <user account name and password> ;
