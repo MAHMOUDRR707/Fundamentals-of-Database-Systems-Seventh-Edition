@@ -4,3 +4,12 @@
  - this chapter, we discuss the features of objectoriented data models and show how some of these features have been incorporated in relational database systems and the SQL standard
  
  
+- Another reason for the creation of object-oriented databases is the vast increase in the use of object-oriented programming languages for developing software applications. Databases are fundamental components in many software systems, and traditional databases are sometimes difficult to use with software applications that are
+developed in an object-oriented programming language such as C++ or Java. Object databases are designed so they can be directly—or seamlessly—integrated with software that is developed using object-oriented programming languages
+
+- An object typically has two components: state (value) and behavior (operations)
+
+- OO databases store persistent objects permanently in secondary storage and allow the sharing of these objects among multiple programs and applications
+
+
+- 
