@@ -12,4 +12,7 @@ developed in an object-oriented programming language such as C++ or Java. Object
 - OO databases store persistent objects permanently in secondary storage and allow the sharing of these objects among multiple programs and applications
 
 
-- 
+- The internal structure of an object in OOPLs includes the specification of instance variables, which hold the values that define the internal state of the object. An
+instance variable is similar to the concept of an attribute in the relational model 
+
+-
